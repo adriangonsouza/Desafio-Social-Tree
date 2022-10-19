@@ -1,0 +1,57 @@
+body {
+    background-color: #faf7fd;
+    font-family: 'Poppins';
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 201px;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 2px solid #bb99dd;
+}
+
+.profile a {
+    margin-top: 22px;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.links ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.links ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #bb99dd;
+    width: 326px;
+    height: 49px;
+    border-radius: 4px;
+}
+
+.social-medias {
+    text-align: center;
+    align-items: center;
+    padding-top: 68px;
+}
+.social-medias a img {
+    padding: 0px 14.5px;
+}
